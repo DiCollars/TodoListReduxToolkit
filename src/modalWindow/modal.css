@@ -1,0 +1,309 @@
+.modal-overlay {
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .modal {
+    background: #DBE2EF;
+    height: 194px;
+    width: 576px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    padding: 24px 24px;
+  }
+  
+  .modal-create-update {
+    background: #DBE2EF;
+    height: 376px;
+    width: 800px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+  }
+  
+  .paddingRightTop {
+    padding-right: 24px;
+    padding-top: 24px;
+  }
+  
+  .paddingTop {
+    padding-top: 24px;
+  }
+  
+    /* button */
+  .modal-confirm-yes {
+    height:46px;
+    width:120px;
+    background: #3F72AF;
+    border: 2px solid #3F72AF;
+    border-radius: 4px;
+    font-family: Roboto;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 46px;
+    float:right;
+    margin-right: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .modal-confirm-no {
+    height:46px;
+    width:120px;
+    border: 2px solid #3F72AF;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 46px;
+    color: #3F72AF;
+    float:right;
+    margin-right: 2px;
+  }
+  
+  .modal-mute-create {
+    background: #3F72AF;
+    border: 2px solid #3F72AF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Roboto;
+  }
+  
+  .modal-mute-close {
+    border: 2px solid #3F72AF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #3F72AF;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Roboto;
+  }
+  
+    /* text */
+  .modal-confirm-text {
+    font-family: Roboto;
+    font-weight: 1000;
+    font-size: 40px;
+    line-height: 56px;
+    color: #3F72AF;
+    align-items: center;
+    padding-top: 8px;
+  }
+  
+  .subtext-style {
+    padding-top: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+  
+  .head-text {
+    padding-left: 24px;
+    padding-top: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 56px;
+    color: #3F72AF;
+  }
+  
+  .form-padding {
+    padding-top: 42px;
+    padding-left: 24px;
+  }
+  
+  .create-task-button {
+    width: 200px;
+    height: 46px;
+    background: #3F72AF;
+    border: 2px solid #3F72AF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 46px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 24px;
+    margin-left: 432px;
+    margin-top: 24px;
+  }
+  
+  .close-task-button {
+    height: 46px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 46px;
+  align-items: center;
+  text-align: center;
+  color: #3F72AF;
+  border: 2px solid #3F72AF;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 46px;
+  }
+  
+  .create-category-button {
+    width: 200px;
+    height: 46px;
+    background: #3F72AF;
+    border: 2px solid #3F72AF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 46px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 24px;
+    margin-left: 432px;
+    margin-top: 24px;
+  }
+  
+  .close-category-button {
+    height: 46px;
+    width: 120px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 46px;
+  align-items: center;
+  text-align: center;
+  color: #3F72AF;
+  border: 2px solid #3F72AF;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 46px;
+  }
+  
+  .font-color-gray {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .form-group>label{
+    color: #3F72AF;
+    position:absolute;
+    top:-11px;
+    left:9px;
+    background-color:#DBE2EF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+  }
+  
+  .form-group{
+    border:2px solid;
+    position:relative;
+    border-radius: 4px; 
+    border: 2px solid #3F72AF;
+  }
+  
+  .field-name {
+    border:none;
+    width: 364px;
+    height: 46px;
+    background: #DBE2EF;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 46px;
+  }
+  
+  .field-category-task {
+    border:none;
+    -webkit-appearance: none;
+    width: 364px;
+    height: 46px;
+    box-sizing: border-box;
+    float:right;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 46px;
+    background: url(/src/icons/326521-16.png) no-repeat right #DBE2EF;
+    background-position-x: 332px;
+  }
+  
+  .field-desc-task {
+    border:none;
+    width: 748px;
+    height: 72px;
+    background: #DBE2EF;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 46px;
+  }
+  
+  .field-name-category {
+    border:none;
+    width: 748px;
+    height: 46px;
+    background: #DBE2EF;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .field-desc-category {
+    border:none;
+    width: 748px;
+    height: 72px;
+    background: #DBE2EF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 46px;
+  }
+  
